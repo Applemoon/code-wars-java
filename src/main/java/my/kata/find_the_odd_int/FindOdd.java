@@ -10,7 +10,7 @@ public class FindOdd {
             map.put(key, map.containsKey(key) ? map.get(key) + 1 : 1);
         }
 
-        for (int key: map.keySet()) {
+        for (int key : map.keySet()) {
             if (map.get(key) % 2 != 0) return key;
         }
         return 0;
